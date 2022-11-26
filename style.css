@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 .section-1 {
@@ -97,12 +98,31 @@ h2 {
   text-align: center;
 }
 
-section-3 {
+.section-3 {
   display: flex;
   flex-direction: column;
   background-color: #E5E7EB;
-  flex: 1;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-bottom: 100px;
+  padding: 100px;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  /* width: 600px; */
+  gap: 10px;
+  max-width: 600px;
+}
+
+div.quote {
+  font-weight: 900;
+  align-self: flex-end;
+}
+
+p.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  margin: 0;
+  font-weight: 50;
 }
